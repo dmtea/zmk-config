@@ -248,5 +248,5 @@ combos:
   k: Boot
 - p: [7, 11]
   k: Boot
-- p: [24, 12]
-  k: $$mdi:apple-keyboard-option$$
+- p: [13, 25]
+  k: {t: PLAY PAUSE, h: '$$mdi:apple-keyboard-option$$'}

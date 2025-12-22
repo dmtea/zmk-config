@@ -242,8 +242,8 @@
         };
 
         RALT_ALT {
-            bindings = <&kp RALT>;
-            key-positions = <24 12>;
+            bindings = <&mt RALT C_PLAY_PAUSE>;
+            key-positions = <13 25>;
         };
     };
 };
