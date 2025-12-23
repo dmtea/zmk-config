@@ -42,7 +42,7 @@ layers:
   - {t: ⏎, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ␣, h: raise}
   - $$mdi:backspace-outline$$
-  - CAPSLOCK
+  - {t: CAPSLOCK, h: '$$mdi:apple-keyboard-command$$'}
   lower:
   - '~'
   - '1'
