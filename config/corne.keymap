@@ -265,12 +265,12 @@
             timeout-ms = <20>;
         };
 
-        toggle_numbers {
+        rgb_numbers_left {
             bindings = <&numbers_rgb_holdtap 0 0>;
             key-positions = <2 3 4>;
         };
 
-        start {
+        star {
             bindings = <&kp ASTERISK>;
             key-positions = <26 27>;
         };
@@ -288,6 +288,11 @@
         dot {
             bindings = <&kp DOT>;
             key-positions = <32 33>;
+        };
+
+        rgb_numbers_right {
+            bindings = <&numbers_rgb_holdtap 0 0>;
+            key-positions = <7 8 9>;
         };
     };
 };
@@ -367,10 +372,10 @@
 
         numbers {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                    &trans        &trans        &trans          &trans  &trans  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5    &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans
+&trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0    &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &trans        &trans        &trans         &trans          &trans        &trans         &trans        &trans        &trans        &trans
+                                    &trans        &kp BACKSPACE  &trans          &trans        &kp BACKSPACE  &trans
             >;
         };
     };

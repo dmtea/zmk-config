@@ -222,13 +222,18 @@ layers:
   - '3'
   - '4'
   - '5'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - '6'
   - '7'
   - '8'
@@ -248,15 +253,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: ▽, type: trans}
 combos:
 - p: [4, 5]
@@ -305,3 +305,5 @@ combos:
   k: ','
 - p: [32, 33]
   k: .
+- p: [7, 8, 9]
+  k: {t: '&numbers_layer_wRGB_OFF', h: '&numbers_layer_wRGB_ON'}
