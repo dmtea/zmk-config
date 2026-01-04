@@ -217,11 +217,11 @@ layers:
   - {t: ▽, type: trans}
   numbers:
   - {t: ▽, type: trans}
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP 4
-  - KP 5
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -229,11 +229,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP 6
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -295,5 +295,13 @@ combos:
   k: {t: PLAY PAUSE, h: '$$mdi:apple-keyboard-option$$'}
 - p: [14, 15]
   k: '='
-- p: [1, 2]
+- p: [1, 2, 3]
   k: {t: numbers, h: toggle}
+- p: [26, 27]
+  k: '*'
+- p: [27, 28]
+  k: /
+- p: [31, 32]
+  k: ','
+- p: [32, 33]
+  k: .
