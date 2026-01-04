@@ -2,27 +2,27 @@ layout: {zmk_keyboard: corne}
 layers:
   default:
   - Esc
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
+  - {t: Q, h: '1'}
+  - {t: W, h: '2'}
+  - {t: E, h: '3'}
+  - {t: R, h: '4'}
+  - {t: T, h: '5'}
+  - {t: Y, h: '6'}
+  - {t: U, h: '7'}
+  - {t: I, h: '8'}
+  - {t: O, h: '9'}
+  - {t: P, h: '0'}
   - {t: '[', h: '&fbuttons_layer_wRGB'}
   - ↹
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
+  - {t: A, h: '!'}
+  - {t: S, h: '@'}
+  - {t: D, h: '#'}
+  - {t: F, h: $}
+  - {t: G, h: '%'}
+  - {t: H, h: ^}
+  - {t: J, h: AMPERSAND}
+  - {t: K, h: '*'}
+  - {t: L, h: '~'}
   - {t: ':', h: ;}
   - ''''
   - $$mdi:apple-keyboard-shift$$
