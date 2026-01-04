@@ -260,6 +260,11 @@
             key-positions = <14 15>;
             timeout-ms = <20>;
         };
+
+        toggle_numbers {
+            bindings = <&tog 5>;
+            key-positions = <1 2>;
+        };
     };
 };
 
@@ -309,6 +314,15 @@
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_COLOR_HSB(109,100,50)  &rgb_ug RGB_COLOR_HSB(55,100,50)
 &none        &kp KP_NUM    &none         &none         &none         &none                &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_COLOR_HSB(0,0,100)     &rgb_ug RGB_COLOR_HSB(296,100,50)
                                          &trans        &trans        &trans               &trans           &trans           &trans
+            >;
+        };
+
+        numbers {
+            bindings = <
+&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_N0          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans           &trans           &trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans           &trans           &trans             &trans  &trans  &trans
             >;
         };
     };
