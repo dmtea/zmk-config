@@ -319,7 +319,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&to 0 &rgb_ug RGB_COLOR_HSB(298,100,25)>,
+                <&to 0 &rgb_ug RGB_COLOR_HSB(302,100,24)>,
                 <&macro_release>;
 
             label = "numbers_layer_wRGB_OFF";
@@ -329,11 +329,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&mo 1>,
                 <&macro_press>,
-                <&rgb_ug RGB_COLOR_HSB(246,100,26)>,
+                <&to 1 &rgb_ug RGB_COLOR_HSB(246,100,26)>,
+                <&macro_pause_for_release>,
                 <&macro_release>,
-                <&rgb_ug RGB_COLOR_HSB(303,100,24)>;
+                <&to 0 &rgb_ug RGB_COLOR_HSB(296,100,24)>;
 
             label = "LOWER_LAYER_WRGB";
         };
@@ -344,7 +344,9 @@
             bindings =
                 <&macro_press>,
                 <&to 2 &rgb_ug RGB_COLOR_HSB(28,100,26)>,
-                <&macro_release>;
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&to 0 &rgb_ug RGB_COLOR_HSB(302,100,23)>;
 
             label = "RAISE_LAYER_WRGB";
         };
@@ -354,8 +356,10 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&to 4 &rgb_ug RGB_COLOR_HSB(0,100,26)>,
-                <&macro_release>;
+                <&mo 4 &rgb_ug RGB_COLOR_HSB(0,100,26)>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&rgb_ug RGB_COLOR_HSB(296,100,24)>;
 
             label = "ADJUST_LAYER_WRGB";
         };
@@ -365,8 +369,10 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&to 3 &rgb_ug RGB_COLOR_HSB(0,0,48)>,
-                <&macro_release>;
+                <&mo 3 &rgb_ug RGB_COLOR_HSB(0,0,48)>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&rgb_ug RGB_COLOR_HSB(311,100,23)>;
 
             label = "FBUTTONS_LAYER_WRGB";
         };
