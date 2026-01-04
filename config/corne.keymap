@@ -262,8 +262,8 @@
         };
 
         toggle_numbers {
-            bindings = <&tog 5>;
-            key-positions = <1 2 3>;
+            bindings = <&numbers_layer_wRGB_ON>;
+            key-positions = <1 3 2>;
         };
 
         start {
@@ -285,10 +285,39 @@
             bindings = <&kp DOT>;
             key-positions = <32 33>;
         };
+
+        numbers_off {
+            bindings = <&numbers_layer_wRGB_OFF>;
+            key-positions = <5 3 4>;
+        };
     };
 };
 
 / {
+    macros {
+        numbers_layer_wRGB_ON: numbers_layer_wRGB_ON {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&to 5 &rgb_ug RGB_COLOR_HSB(246,100,50)>,
+                <&macro_release>;
+
+            label = "numbers_layer_wRGB_ON";
+        };
+
+        numbers_layer_wRGB_OFF: numbers_layer_wRGB_OFF {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&to 0 &rgb_ug RGB_COLOR_HSB(294,100,50)>,
+                <&macro_release>;
+
+            label = "numbers_layer_wRGB_OFF";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
