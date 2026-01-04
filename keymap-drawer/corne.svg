@@ -50,7 +50,7 @@
   class="icon icon-tabler icons-tabler-outline icon-tabler-brightness-down"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M12 5l0 .01" />
   <path d="M17 7l0 .01" />
   <path d="M19 12l0 .01" />
@@ -75,7 +75,7 @@
   class="icon icon-tabler icons-tabler-outline icon-tabler-brightness-up"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M12 5l0 -2" />
   <path d="M17 7l1.4 -1.4" />
   <path d="M19 12l2 0" />
@@ -455,7 +455,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(224, 205)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-control"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;tmux_lea…</tspan></text>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -556,6 +556,10 @@ rect.held, rect.combo.held {
 <tspan x="84" dy="-0.6em">PLAY</tspan><tspan x="84" dy="1.2em">PAUSE</tspan>
 </text>
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="76" y="129" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-option"/>
+</g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
+<text x="168" y="88" class="combo tap">=</text>
 </g>
 </g>
 </g>

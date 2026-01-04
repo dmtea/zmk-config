@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - {t: ']', h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:apple-keyboard-control$$
+  - '&tmux_leader'
   - lower
   - {t: ⏎, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ␣, h: raise}
@@ -250,3 +250,6 @@ combos:
   k: Boot
 - p: [13, 25]
   k: {t: PLAY PAUSE, h: '$$mdi:apple-keyboard-option$$'}
+- p: [14, 15]
+  k: '='
+  l: [default]
