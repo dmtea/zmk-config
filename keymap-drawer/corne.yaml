@@ -55,7 +55,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - F17
+  - ''
   - '`'
   - '!'
   - '@'
@@ -67,7 +67,7 @@ layers:
   - '*'
   - (
   - )
-  - F18
+  - ''
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -79,7 +79,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - \
-  - F14
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
@@ -185,7 +185,7 @@ layers:
   - OUT TOG
   - Reset
   - Boot
-  - {t: BT CLR, type: held}
+  - {type: held}
   - BT 1
   - BT 2
   - BT 3
