@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: '[', h: fbuttons}
+  - {t: '[', h: '&fbuttons_layer_wRGB'}
   - ↹
   - A
   - S
@@ -38,9 +38,9 @@ layers:
   - /
   - {t: ']', h: '$$mdi:apple-keyboard-option$$'}
   - '&tmux_leader'
-  - lower
+  - '&lower_layer_wRGB'
   - {t: ⏎, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: ␣, h: raise}
+  - {t: ␣, h: '&raise_layer_wRGB 2'}
   - $$mdi:backspace-outline$$
   - {t: CAPSLOCK, h: '$$mdi:apple-keyboard-command$$'}
   lower:
@@ -80,8 +80,8 @@ layers:
   - {t: ▽, type: trans}
   - \
   - F14
-  - adjust
-  - {type: held}
+  - '&adjust_layer_wRGB'
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
   - KP 1
   - KP 2
@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+F11
   - Gui+F12
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   fbuttons:
@@ -141,7 +141,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {type: held}
+  - {t: ▽, type: trans}
   - F7
   - F8
   - F9
@@ -209,8 +209,8 @@ layers:
   - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
   - {t: '$$mdi:led-on$$', h: '$$mdi:palette$$', type: tap_dance}
   - RGB COLOR HSB(296,100,50)
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -296,7 +296,7 @@ combos:
 - p: [14, 15]
   k: '='
 - p: [2, 3, 4]
-  k: {t: '&numbers_layer_wRGB_OFF', h: '&numbers_layer_wRGB_ON'}
+  k: {t: '&general_layer_wRGB', h: '&numbers_layer_wRGB'}
 - p: [26, 27]
   k: '*'
 - p: [27, 28]
@@ -306,4 +306,4 @@ combos:
 - p: [32, 33]
   k: .
 - p: [7, 8, 9]
-  k: {t: '&numbers_layer_wRGB_OFF', h: '&numbers_layer_wRGB_ON'}
+  k: {t: '&general_layer_wRGB', h: '&numbers_layer_wRGB'}
