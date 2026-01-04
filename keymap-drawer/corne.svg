@@ -594,9 +594,8 @@ rect.held, rect.combo.held {
 <path d="M28,105 l0,-37" class="combo"/>
 <path d="M28,105 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="14" y="92" width="28" height="26" class="combo"/>
-<a href="#adjust">
-<text x="28" y="105" class="combo tap layer-activator">adjust</text>
-</a></g>
+<text x="28" y="105" class="combo tap"><tspan style="font-size: 60%">&amp;adjust_l…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 331)" class="layer-lower">
@@ -880,9 +879,8 @@ rect.held, rect.combo.held {
 <path d="M28,105 l0,-37" class="combo"/>
 <path d="M28,105 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="14" y="92" width="28" height="26" class="combo"/>
-<a href="#adjust">
-<text x="28" y="105" class="combo tap layer-activator">adjust</text>
-</a></g>
+<text x="28" y="105" class="combo tap"><tspan style="font-size: 60%">&amp;adjust_l…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 661)" class="layer-raise">
@@ -1185,9 +1183,8 @@ rect.held, rect.combo.held {
 <path d="M28,105 l0,-37" class="combo"/>
 <path d="M28,105 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="14" y="92" width="28" height="26" class="combo"/>
-<a href="#adjust">
-<text x="28" y="105" class="combo tap layer-activator">adjust</text>
-</a></g>
+<text x="28" y="105" class="combo tap"><tspan style="font-size: 60%">&amp;adjust_l…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 992)" class="layer-fbuttons">
@@ -1470,17 +1467,16 @@ rect.held, rect.combo.held {
 <path d="M28,105 l0,-37" class="combo"/>
 <path d="M28,105 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="14" y="92" width="28" height="26" class="combo"/>
-<a href="#adjust">
-<text x="28" y="105" class="combo tap layer-activator">adjust</text>
-</a></g>
+<text x="28" y="105" class="combo tap"><tspan style="font-size: 60%">&amp;adjust_l…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1323)" class="layer-adjust">
 <text x="0" y="28" class="label" id="adjust">adjust:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 49)" class="key held keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<text x="0" y="0" class="key held tap">Boot</text>
+<g transform="translate(28, 49)" class="key keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">Boot</text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1530,8 +1526,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Boot</text>
 </g>
-<g transform="translate(28, 105)" class="key held keypos-12">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(28, 105)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1589,8 +1585,8 @@ rect.held, rect.combo.held {
 <g transform="translate(812, 105)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g transform="translate(28, 161)" class="key held keypos-24">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(28, 161)" class="key keypos-24">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(84, 161)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1779,9 +1775,8 @@ rect.held, rect.combo.held {
 <path d="M28,105 l0,-37" class="combo"/>
 <path d="M28,105 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="14" y="92" width="28" height="26" class="combo"/>
-<a href="#adjust">
-<text x="28" y="105" class="combo tap layer-activator">adjust</text>
-</a></g>
+<text x="28" y="105" class="combo tap"><tspan style="font-size: 60%">&amp;adjust_l…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1653)" class="layer-numbers">
@@ -2068,9 +2063,8 @@ rect.held, rect.combo.held {
 <path d="M28,105 l0,-37" class="combo"/>
 <path d="M28,105 l0,37" class="combo"/>
 <rect rx="6" ry="6" x="14" y="92" width="28" height="26" class="combo"/>
-<a href="#adjust">
-<text x="28" y="105" class="combo tap layer-activator">adjust</text>
-</a></g>
+<text x="28" y="105" class="combo tap"><tspan style="font-size: 60%">&amp;adjust_l…</tspan></text>
+</g>
 </g>
 </g>
 <text x="880.0" y="2012.0" class="footer">Keymap View: <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a></text></svg>
