@@ -40,7 +40,7 @@ layers:
   - '&tmux_leader'
   - '&lower_layer_wRGB'
   - {t: ⏎, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: ␣, h: '&raise_ht2 2'}
+  - {t: ␣, h: '&raise_layer_wRGB 2'}
   - $$mdi:backspace-outline$$
   - {t: CAPSLOCK, h: '$$mdi:apple-keyboard-command$$'}
   lower:
