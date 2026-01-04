@@ -327,9 +327,9 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E         &kp R  &kp T           &kp Y          &kp U     &kp I              &kp O    &kp P     &lt FLR LEFT_BRACKET
-&kp TAB    &kp A  &kp S  &kp D         &kp F  &kp G           &kp H          &kp J     &kp K              &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C         &kp V  &kp B           &kp N          &kp M     &kp COMMA          &kp DOT  &kp FSLH  &mt RALT RIGHT_BRACKET
+&kp ESC    &kp Q  &kp W  &kp E         &kp R  &kp T           &kp Y          &kp U     &kp I              &kp O    &kp P                &lt FLR LEFT_BRACKET
+&kp TAB    &kp A  &kp S  &kp D         &kp F  &kp G           &kp H          &kp J     &kp K              &kp L    &mt COLON SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C         &kp V  &kp B           &kp N          &kp M     &kp COMMA          &kp DOT  &kp FSLH             &mt RALT RIGHT_BRACKET
                          &tmux_leader  &mo 1  &mt LGUI RET    &lt RSE SPACE  &kp BSPC  &mt LGUI CAPSLOCK
             >;
         };
