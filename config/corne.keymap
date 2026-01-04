@@ -24,13 +24,13 @@
 &lt {
     /*quick_tap_ms = <219>;*/
 
-    tapping-term-ms = <300>;
+    tapping-term-ms = <350>;
 };
 
 &mt {
     /*quick_tap_ms = <219>;*/
 
-    tapping-term-ms = <300>;
+    tapping-term-ms = <350>;
     flavor = "tap-preferred";
 };
 
@@ -51,7 +51,7 @@
             bindings = <&numbers_layer_wRGB>, <&general_layer_wRGB>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
