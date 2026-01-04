@@ -130,48 +130,48 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   fbuttons:
+  - ''
   - F1
   - F2
   - F3
   - F4
   - F5
-  - F6
   - VOLUME UP
   - BRIGHTNESS INC
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
+  - RSHIFT
+  - ''
   - {type: held}
+  - ''
+  - F6
   - F7
   - F8
   - F9
   - F10
-  - F11
-  - F12
   - VOLUME DOWN
   - BRIGHTNESS DEC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - RIGHT ALT
+  - ''
+  - ''
+  - F11
+  - F12
+  - F13
+  - F14
+  - F15
   - {t: MUTE, h: toggle}
-  - BRIGHTNESS MINIMUM
+  - '&mic_toggle'
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   adjust:
   - {t: Boot, type: held}
   - Reset
