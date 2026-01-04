@@ -80,12 +80,12 @@ layers:
   - {t: ▽, type: trans}
   - \
   - F14
-  - adjust
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
-  - KP 1
-  - KP 2
-  - KP 3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
-  - Boot
+  - {t: Boot, type: held}
   - Reset
   - OUT TOG
   - ''
@@ -185,7 +185,7 @@ layers:
   - OUT TOG
   - Reset
   - Boot
-  - BT CLR
+  - {t: BT CLR, type: held}
   - BT 1
   - BT 2
   - BT 3
@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
   - RGB COLOR HSB(109,100,50)
   - RGB COLOR HSB(55,100,50)
-  - ''
+  - {type: held}
   - KP NUM
   - ''
   - ''
@@ -209,7 +209,7 @@ layers:
   - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
   - {t: '$$mdi:led-on$$', h: '$$mdi:palette$$', type: tap_dance}
   - RGB COLOR HSB(296,100,50)
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,3 +307,5 @@ combos:
   k: .
 - p: [7, 8, 9]
   k: {t: '&general_layer_wRGB', h: '&numbers_layer_wRGB'}
+- p: [0, 12, 24]
+  k: adjust
