@@ -126,7 +126,7 @@
             #binding-cells = <0>;
             bindings = <&kp LCTRL>, <&kp LC(A)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
         };
     };
 
