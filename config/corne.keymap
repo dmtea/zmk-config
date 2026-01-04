@@ -24,13 +24,14 @@
 &lt {
     /*quick_tap_ms = <219>;*/
 
-    tapping-term-ms = <150>;
+    tapping-term-ms = <300>;
 };
 
 &mt {
     /*quick_tap_ms = <219>;*/
 
-    tapping-term-ms = <150>;
+    tapping-term-ms = <300>;
+    flavor = "tap-preferred";
 };
 
 / {
