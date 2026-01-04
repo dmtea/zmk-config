@@ -139,8 +139,8 @@ layers:
   - VOLUME UP
   - BRIGHTNESS INC
   - $$mdi:apple-keyboard-control$$
-  - RSHIFT
-  - ''
+  - '&bt_mouse'
+  - '&bt_hds'
   - {type: held}
   - ''
   - F6
