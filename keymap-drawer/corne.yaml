@@ -24,7 +24,7 @@ layers:
   - {t: K, h: '*'}
   - {t: L, h: '~'}
   - {t: ':', h: ;}
-  - ''''
+  - {t: '''', h: ⌦}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X

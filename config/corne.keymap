@@ -363,7 +363,7 @@
         default_layer {
             bindings = <
 &kp ESC    &mt NUMBER_1 Q     &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R     &mt NUMBER_5 T    &mt NUMBER_6 Y        &mt NUMBER_7 U   &mt NUMBER_8 I     &mt NUMBER_9 O  &mt NUMBER_0 P       &fbuttons_ht2 0 LEFT_BRACKET
-&kp TAB    &mt EXCLAMATION A  &mt AT_SIGN S   &mt HASH D      &mt DOLLAR F       &mt PERCENT G     &mt CARET H           &mt AMPERSAND J  &mt ASTERISK K     &mt TILDE L     &mt SEMICOLON COLON  &kp SQT
+&kp TAB    &mt EXCLAMATION A  &mt AT_SIGN S   &mt HASH D      &mt DOLLAR F       &mt PERCENT G     &mt CARET H           &mt AMPERSAND J  &mt ASTERISK K     &mt TILDE L     &mt SEMICOLON COLON  &mt DEL SQT
 &kp LSHFT  &kp Z              &kp X           &kp C           &kp V              &kp B             &kp N                 &kp M            &kp COMMA          &kp DOT         &mt BACKSLASH FSLH   &mt RALT RIGHT_BRACKET
                                               &tmux_leader    &lower_layer_wRGB  &mt LGUI RET      &raise_ht2 RSE SPACE  &kp BSPC         &mt LGUI CAPSLOCK
             >;
