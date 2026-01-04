@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: ':'}
+  - {t: ':', h: ;}
   - ''''
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -35,7 +35,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: \}
   - {t: ']', h: '$$mdi:apple-keyboard-option$$'}
   - '&tmux_leader'
   - '&lower_layer_wRGB'
