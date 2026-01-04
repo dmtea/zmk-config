@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: '[', h: '&fbuttons_layer_wRGB'}
+  - fbuttons
   - ↹
   - A
   - S
@@ -40,7 +40,7 @@ layers:
   - '&tmux_leader'
   - '&lower_layer_wRGB'
   - {t: ⏎, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: ␣, h: '&raise_layer_wRGB 2'}
+  - {t: ␣, h: '&raise_ht2 2'}
   - $$mdi:backspace-outline$$
   - {t: CAPSLOCK, h: '$$mdi:apple-keyboard-command$$'}
   lower:
@@ -80,7 +80,7 @@ layers:
   - {t: ▽, type: trans}
   - \
   - F14
-  - '&adjust_layer_wRGB'
+  - adjust
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
   - KP 1
@@ -141,7 +141,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: ▽, type: trans}
+  - {type: held}
   - F7
   - F8
   - F9
@@ -209,7 +209,7 @@ layers:
   - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
   - {t: '$$mdi:led-on$$', h: '$$mdi:palette$$', type: tap_dance}
   - RGB COLOR HSB(296,100,50)
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

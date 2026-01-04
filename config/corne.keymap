@@ -52,7 +52,7 @@
         raise_ht2: raise_ht2 {
             compatible = "zmk,behavior-hold-tap";
             label = "RAISE_HT2";
-            bindings = <&raise_layer_wRGB>, <&kp>;
+            bindings = <&raise_ht2>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
@@ -298,32 +298,6 @@
 
             label = "LOWER_LAYER_WRGB";
         };
-
-        adjust_layer_wRGB: adjust_layer_wRGB {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&mo 4 &rgb_ug RGB_COLOR_HSB(0,100,26)>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&rgb_ug RGB_COLOR_HSB(296,100,24)>;
-
-            label = "ADJUST_LAYER_WRGB";
-        };
-
-        fbuttons_layer_wRGB: fbuttons_layer_wRGB {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&mo 3 &rgb_ug RGB_COLOR_HSB(0,0,48)>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&rgb_ug RGB_COLOR_HSB(311,100,23)>;
-
-            label = "FBUTTONS_LAYER_WRGB";
-        };
     };
 
     keymap {
@@ -331,7 +305,7 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E         &kp R              &kp T           &kp Y                 &kp U     &kp I              &kp O    &kp P                &fbuttons_ht2 0 LEFT_BRACKET
+&kp ESC    &kp Q  &kp W  &kp E         &kp R              &kp T           &kp Y                 &kp U     &kp I              &kp O    &kp P                &mo 3
 &kp TAB    &kp A  &kp S  &kp D         &kp F              &kp G           &kp H                 &kp J     &kp K              &kp L    &mt COLON SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C         &kp V              &kp B           &kp N                 &kp M     &kp COMMA          &kp DOT  &kp FSLH             &mt RALT RIGHT_BRACKET
                          &tmux_leader  &lower_layer_wRGB  &mt LGUI RET    &raise_ht2 RSE SPACE  &kp BSPC  &mt LGUI CAPSLOCK
@@ -340,10 +314,10 @@
 
         lower_layer {
             bindings = <
-&kp TILDE  &kp N1    &kp N2  &kp N3              &kp N4    &kp N5       &kp N6     &kp N7     &kp N8     &kp N9    &kp N0         &kp F17
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH            &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR       &kp F18
-&kp LSHFT  &trans    &trans  &trans              &trans    &trans       &trans     &trans     &trans     &trans    &kp BACKSLASH  &kp F14
-                             &adjust_layer_wRGB  &trans    &kp LGUI     &kp KP_N1  &kp KP_N2  &kp KP_N3
+&kp TILDE  &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp N6     &kp N7     &kp N8     &kp N9    &kp N0         &kp F17
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR       &kp F18
+&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &trans     &trans     &trans     &trans    &kp BACKSLASH  &kp F14
+                             &mo 4     &trans    &kp LGUI     &kp KP_N1  &kp KP_N2  &kp KP_N3
             >;
         };
 
