@@ -21,11 +21,13 @@
 #define FLR 3
 #define ADJ 4
 
-&lt { quick_tap_ms = <219>; };
+tapping-term-ms = <250>;};
 
-&mt { quick_tap_ms = <219>; };
+tapping-term-ms {
+    = <250>;};
 
-/ {
+/
+
     behaviors {
         tmux_leader: tmux_leader {
             compatible = "zmk,behavior-tap-dance";
