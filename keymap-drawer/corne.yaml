@@ -38,7 +38,7 @@ layers:
   - /
   - {t: ']', h: '$$mdi:apple-keyboard-option$$'}
   - '&tmux_leader'
-  - lower
+  - '&lower_layer_wRGB'
   - {t: ⏎, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ␣, h: '&raise_layer_wRGB 2'}
   - $$mdi:backspace-outline$$
@@ -81,7 +81,7 @@ layers:
   - \
   - F14
   - '&adjust_layer_wRGB'
-  - {type: held}
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
   - KP 1
   - KP 2
