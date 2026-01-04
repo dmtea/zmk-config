@@ -22,6 +22,7 @@
 #define ADJ 4
 
 &lt { quick_tap_ms = <219>; };
+
 &mt { quick_tap_ms = <219>; };
 
 / {
@@ -42,7 +43,9 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
+
             //quick-tap-ms = <100>;
+
             flavor = "tap-preferred";
         };
 
@@ -53,7 +56,9 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
+
             //quick-tap-ms = <100>;
+
             flavor = "tap-preferred";
         };
 
@@ -261,12 +266,16 @@
             #binding-cells = <0>;
             wait-ms = <0>;
             tap-ms = <0>;
-            bindings
-                = <&macro_press &mo 1>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(246,100,26)>
-                , <&macro_pause_for_release>
-                , <&macro_release &mo 1>
-                , <&macro_tap &rgb_ug RGB_COLOR_HSB(302,100,24)>;
+            bindings =
+                <&macro_press>,
+                <&mo 1>,
+                <&macro_tap>,
+                <&rgb_ug RGB_COLOR_HSB(246,100,26)>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 1>,
+                <&macro_tap>,
+                <&rgb_ug RGB_COLOR_HSB(302,100,24)>;
 
             label = "LOWER_LAYER_WRGB";
         };
@@ -316,10 +325,10 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E         &kp R              &kp T           &kp Y                 &kp U     &kp I              &kp O    &kp P                &fbuttons_ht2 0 LEFT_BRACKET
-&kp TAB    &kp A  &kp S  &kp D         &kp F              &kp G           &kp H                 &kp J     &kp K              &kp L    &mt COLON SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C         &kp V              &kp B           &kp N                 &kp M     &kp COMMA          &kp DOT  &kp FSLH             &mt RALT RIGHT_BRACKET
-                         &tmux_leader  &lower_layer_wRGB  &mt LGUI RET    &raise_ht2 RSE SPACE  &kp BSPC  &mt LGUI CAPSLOCK
+&kp ESC    &kp Q  &kp W  &kp E         &kp R  &kp T           &kp Y                 &kp U     &kp I              &kp O    &kp P                &fbuttons_ht2 0 LEFT_BRACKET
+&kp TAB    &kp A  &kp S  &kp D         &kp F  &kp G           &kp H                 &kp J     &kp K              &kp L    &mt COLON SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C         &kp V  &kp B           &kp N                 &kp M     &kp COMMA          &kp DOT  &kp FSLH             &mt RALT RIGHT_BRACKET
+                         &tmux_leader  &mo 1  &mt LGUI RET    &raise_ht2 RSE SPACE  &kp BSPC  &mt LGUI CAPSLOCK
             >;
         };
 
