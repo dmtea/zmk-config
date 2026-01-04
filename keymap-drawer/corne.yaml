@@ -195,20 +195,20 @@ layers:
   - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
   - {t: '$$mdi:led-outline$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
   - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
-  - RGB COLOR HSB(109,100,50)
-  - RGB COLOR HSB(55,100,50)
+  - ''
+  - ''
   - {type: held}
-  - KP NUM
   - ''
+  - BT CLR
+  - BT CLR ALL
   - ''
-  - ''
-  - ''
+  - KP NUMLOCK
   - {t: '$$mdi:led-on$$', h: '$$mdi:page-next-outline$$', type: tap_dance}
   - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
   - {t: '$$mdi:led-on$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
   - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
-  - {t: '$$mdi:led-on$$', h: '$$mdi:palette$$', type: tap_dance}
-  - RGB COLOR HSB(296,100,50)
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
