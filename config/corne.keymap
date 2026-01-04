@@ -23,13 +23,14 @@
 
 &lt {
     /*quick_tap_ms = <219>;*/
-    tapping-term-ms = <250>;
+
+    tapping-term-ms = <150>;
 };
 
 &mt {
     /*quick_tap_ms = <219>;*/
-    tapping-term-ms = <250>;
 
+    tapping-term-ms = <150>;
 };
 
 / {
@@ -49,7 +50,7 @@
             bindings = <&numbers_layer_wRGB>, <&general_layer_wRGB>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <250>;
             flavor = "tap-preferred";
         };
 
@@ -59,7 +60,7 @@
             bindings = <&raise_layer_wRGB>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -69,7 +70,7 @@
             bindings = <&fbuttons_layer_wRGB>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
     };
