@@ -95,24 +95,6 @@
 
 / {
     behaviors {
-        tdJ: tap_dance_lang2 {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <100>;
-            bindings = <&kp J>, <&kp LG(F12)>;
-        };
-
-        lh_pht: left_positional_hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-unless-interrupted";
-            tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]
-            quick-tap-ms = <200>;
-            bindings = <&kp>, <&kp>;
-
-            hold-trigger-key-positions = <0 1 2 3 4 5>;    // <---[[right-hand keys]]
-        };
-
         tmux_leader: tmux_leader {
             compatible = "zmk,behavior-tap-dance";
             label = "TMUX_LEADER";
@@ -347,9 +329,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
+                <&mo 1>,
                 <&macro_press>,
-                <&to 1 &rgb_ug RGB_COLOR_HSB(246,100,26)>,
-                <&macro_release>;
+                <&rgb_ug RGB_COLOR_HSB(246,100,26)>,
+                <&macro_release>,
+                <&rgb_ug RGB_COLOR_HSB(303,100,24)>;
 
             label = "LOWER_LAYER_WRGB";
         };
