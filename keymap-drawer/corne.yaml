@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - fbuttons
+  - {t: '[', h: '&fbuttons_layer_wRGB'}
   - ↹
   - A
   - S
@@ -141,7 +141,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - '&bt_mouse'
   - '&bt_hds'
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - F6
   - F7
