@@ -17,10 +17,10 @@ layers:
   - A
   - S
   - D
-  - '&tdF'
+  - F
   - G
   - H
-  - '&tdJ'
+  - J
   - K
   - L
   - ;
@@ -72,8 +72,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+F11
-  - Gui+F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -295,8 +295,8 @@ combos:
   k: {t: PLAY PAUSE, h: '$$mdi:apple-keyboard-option$$'}
 - p: [14, 15]
   k: '='
-- p: [1, 3, 2]
-  k: '&numbers_layer_wRGB_ON'
+- p: [2, 3, 4]
+  k: {t: '&numbers_layer_wRGB_OFF', h: '&numbers_layer_wRGB_ON'}
 - p: [26, 27]
   k: '*'
 - p: [27, 28]
@@ -305,5 +305,3 @@ combos:
   k: ','
 - p: [32, 33]
   k: .
-- p: [5, 3, 4]
-  k: '&numbers_layer_wRGB_OFF'
