@@ -65,8 +65,8 @@ layers:
   - ^
   - AMPS
   - '*'
-  - (
-  - )
+  - <
+  - '>'
   - ''
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
@@ -301,10 +301,6 @@ combos:
   k: '*'
 - p: [27, 28]
   k: /
-- p: [31, 32]
-  k: ''
-- p: [32, 33]
-  k: ''
 - p: [7, 8, 9]
   k: {t: '&general_layer_wRGB', h: '&numbers_layer_wRGB'}
 - p: [0, 12, 24]

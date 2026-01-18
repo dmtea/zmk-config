@@ -222,16 +222,6 @@
             key-positions = <27 28>;
         };
 
-        comma_ {
-            bindings = <&none>;
-            key-positions = <31 32>;
-        };
-
-        dot_ {
-            bindings = <&none>;
-            key-positions = <32 33>;
-        };
-
         rgb_numbers_right {
             bindings = <&numbers_ht 0 0>;
             key-positions = <7 8 9>;
@@ -380,9 +370,9 @@
 
         lower_layer {
             bindings = <
-&kp TILDE  &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp N6     &kp N7    &kp N8     &kp N9    &kp N0         &none
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR       &none
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &trans     &trans    &trans     &trans    &kp BACKSLASH  &none
+&kp TILDE  &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp N6     &kp N7    &kp N8     &kp N9         &kp N0            &none
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LESS_THAN  &kp GREATER_THAN  &none
+&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &trans     &trans    &trans     &trans         &kp BACKSLASH     &none
                              &trans    &trans    &kp LGUI     &trans     &trans    &trans
             >;
         };
