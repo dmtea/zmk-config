@@ -223,12 +223,12 @@
         };
 
         comma_ {
-            bindings = <&just_comma>;
+            bindings = <&none>;
             key-positions = <31 32>;
         };
 
         dot_ {
-            bindings = <&just_dot>;
+            bindings = <&none>;
             key-positions = <32 33>;
         };
 
@@ -240,11 +240,6 @@
         adjust_layer {
             bindings = <&adjust_layer_wRGB>;
             key-positions = <0 12 24>;
-        };
-
-        slash_ {
-            bindings = <&just_slash>;
-            key-positions = <34 33>;
         };
     };
 };
@@ -368,27 +363,6 @@
                 <&rgb_ug RGB_COLOR_HSB(302,100,3)>;
 
             label = "ADJUST_LAYER_WRGB";
-        };
-
-        just_comma: comma {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp COMMA>;
-            label = "COMMA";
-        };
-
-        just_dot: dot {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp DOT>;
-            label = "DOT";
-        };
-
-        just_slash: slash {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp FSLH>;
-            label = "SLASH";
         };
     };
 
