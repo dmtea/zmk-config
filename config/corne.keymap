@@ -202,7 +202,7 @@
         };
 
         equal {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp KP_EQUAL>;
             key-positions = <14 15>;
             timeout-ms = <20>;
         };
@@ -223,13 +223,13 @@
         };
 
         comma {
-            bindings = <&kp COMMA>;
+            bindings = <&kp KP_COMMA>;
             key-positions = <31 32>;
         };
 
         dot {
-            bindings = <&kp DOT>;
-            key-positions = <32 33>;
+            bindings = <&kp KP_DOT>;
+            key-positions = <32>;
         };
 
         rgb_numbers_right {
