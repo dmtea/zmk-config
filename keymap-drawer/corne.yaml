@@ -294,7 +294,7 @@ combos:
 - p: [13, 25]
   k: {t: PLAY PAUSE, h: '$$mdi:apple-keyboard-option$$'}
 - p: [14, 15]
-  k: '='
+  k: KP EQUAL
 - p: [2, 3, 4]
   k: {t: '&general_layer_wRGB', h: '&numbers_layer_wRGB'}
 - p: [26, 27]
@@ -302,9 +302,9 @@ combos:
 - p: [27, 28]
   k: /
 - p: [31, 32]
-  k: ','
+  k: KP COMMA
 - p: [32, 33]
-  k: .
+  k: KP DOT
 - p: [7, 8, 9]
   k: {t: '&general_layer_wRGB', h: '&numbers_layer_wRGB'}
 - p: [0, 12, 24]

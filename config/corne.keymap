@@ -229,7 +229,7 @@
 
         dot {
             bindings = <&kp KP_DOT>;
-            key-positions = <32>;
+            key-positions = <32 33>;
         };
 
         rgb_numbers_right {
