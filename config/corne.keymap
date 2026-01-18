@@ -223,7 +223,7 @@
         };
 
         comma {
-            bindings = <&kp KP_COMMA>;
+            bindings = <&comma>;
             key-positions = <31 32>;
         };
 
@@ -363,6 +363,13 @@
                 <&rgb_ug RGB_COLOR_HSB(302,100,3)>;
 
             label = "ADJUST_LAYER_WRGB";
+        };
+
+        comma: comma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COMMA>;
+            label = "COMMA";
         };
     };
 

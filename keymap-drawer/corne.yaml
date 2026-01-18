@@ -302,7 +302,7 @@ combos:
 - p: [27, 28]
   k: /
 - p: [31, 32]
-  k: KP COMMA
+  k: '&comma'
 - p: [32, 33]
   k: KP DOT
 - p: [7, 8, 9]
