@@ -251,7 +251,6 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                /*<&to 5 &rgb_ug RGB_COLOR_HSB(111,100,3)>,*/
                 <&to 5 &rgb_ug RGB_COLOR_HSB(111,100,3)>,
                 <&macro_release>;
 
@@ -263,7 +262,6 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                /*<&to 0 &rgb_ug RGB_COLOR_HSB(302,100,3)>,*/
                 <&to 0 &rgb_ug RGB_COLOR_HSB(302,100,3)>,
                 <&macro_release>;
 
@@ -279,13 +277,11 @@
                 <&macro_press>,
                 <&mo 1>,
                 <&macro_tap>,
-                /*<&rgb_ug RGB_COLOR_HSB(246,100,3)>,*/
                 <&rgb_ug RGB_COLOR_HSB(246,100,3)>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&mo 1>,
                 <&macro_tap>,
-                /*<&rgb_ug RGB_COLOR_HSB(302,100,3)>;*/
                 <&rgb_ug RGB_COLOR_HSB(302,100,3)>;
 
             label = "LOWER_LAYER_WRGB";
@@ -300,13 +296,11 @@
                 <&macro_press>,
                 <&mo 2>,
                 <&macro_tap>,
-                /*<&rgb_ug RGB_COLOR_HSB(28,100,3)>,*/
                 <&rgb_ug RGB_COLOR_HSB(28,100,3)>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&mo 2>,
                 <&macro_tap>,
-                /*<&rgb_ug RGB_COLOR_HSB(302,100,3)>;*/
                 <&rgb_ug RGB_COLOR_HSB(302,100,3)>;
 
             label = "RAISE_LAYER_WRGB";
@@ -342,13 +336,11 @@
                 <&macro_press>,
                 <&mo 3>,
                 <&macro_tap>,
-                /*<&rgb_ug RGB_COLOR_HSB(170,100,3)>,*/
                 <&rgb_ug RGB_COLOR_HSB(170,100,3)>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&mo 3>,
                 <&macro_tap>,
-                /*<&rgb_ug RGB_COLOR_HSB(302,100,3)>;*/
                 <&rgb_ug RGB_COLOR_HSB(302,100,3)>;
 
             label = "FBUTTONS_LAYER_WRGB";
@@ -363,13 +355,11 @@
                 <&macro_press>,
                 <&mo 4>,
                 <&macro_tap>,
-                /*<&rgb_ug RGB_COLOR_HSB(360,100,3)>,*/
                 <&rgb_ug RGB_COLOR_HSB(360,100,3)>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
                 <&mo 4>,
                 <&macro_tap>,
-                /*<&rgb_ug RGB_COLOR_HSB(302,100,3)>;*/
                 <&rgb_ug RGB_COLOR_HSB(302,100,3)>;
 
             label = "ADJUST_LAYER_WRGB";
@@ -381,10 +371,10 @@
 
         default_layer {
             bindings = <
-&kp ESC    &mt NUMBER_1 Q     &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R     &mt NUMBER_5 T    &mt NUMBER_6 Y        &mt NUMBER_7 U   &mt NUMBER_8 I     &mt NUMBER_9 O  &mt NUMBER_0 P       &fbuttons_ht2 0 LEFT_BRACKET
-&kp TAB    &mt EXCLAMATION A  &mt AT_SIGN S   &mt HASH D      &mt DOLLAR F       &mt PERCENT G     &mt CARET H           &mt AMPERSAND J  &mt ASTERISK K     &mt TILDE L     &mt SEMICOLON COLON  &mt DEL SQT
-&kp LSHFT  &kp Z              &kp X           &kp C           &kp V              &kp B             &kp N                 &kp M            &kp COMMA          &kp DOT         &mt BACKSLASH FSLH   &mt RALT RIGHT_BRACKET
-                                              &tmux_leader    &lower_layer_wRGB  &mt LGUI RET      &raise_ht2 RSE SPACE  &kp BSPC         &mt LGUI CAPSLOCK
+&kp ESC    &mt NUMBER_1 Q     &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R     &mt NUMBER_5 T    &mt NUMBER_6 Y        &mt NUMBER_7 U  &mt NUMBER_8 I     &mt NUMBER_9 O  &mt NUMBER_0 P       &fbuttons_ht2 0 LEFT_BRACKET
+&kp TAB    &mt EXCLAMATION A  &mt AT_SIGN S   &mt HASH D      &mt DOLLAR F       &mt PERCENT G     &kp H                 &kp J           &kp K              &kp L           &mt SEMICOLON COLON  &mt DEL SQT
+&kp LSHFT  &kp Z              &kp X           &kp C           &kp V              &kp B             &kp N                 &kp M           &kp COMMA          &kp DOT         &mt BACKSLASH FSLH   &mt RALT RIGHT_BRACKET
+                                              &tmux_leader    &lower_layer_wRGB  &mt LGUI RET      &raise_ht2 RSE SPACE  &kp BSPC        &mt LGUI CAPSLOCK
             >;
         };
 

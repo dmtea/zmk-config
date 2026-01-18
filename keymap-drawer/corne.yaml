@@ -19,10 +19,10 @@ layers:
   - {t: D, h: '#'}
   - {t: F, h: $}
   - {t: G, h: '%'}
-  - {t: H, h: ^}
-  - {t: J, h: AMPERSAND}
-  - {t: K, h: '*'}
-  - {t: L, h: '~'}
+  - H
+  - J
+  - K
+  - L
   - {t: ':', h: ;}
   - {t: '''', h: ⌦}
   - $$mdi:apple-keyboard-shift$$
