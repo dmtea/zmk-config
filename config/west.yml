@@ -35,6 +35,6 @@ manifest:
     # unicode
     - name: zmk-unicode
       remote: urob
-      revision: v0.3 # Should match ZMK release.
+      revision: v0.3.0 # Should match ZMK release.
   self:
     path: config
