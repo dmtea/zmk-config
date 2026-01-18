@@ -302,10 +302,12 @@ combos:
 - p: [27, 28]
   k: /
 - p: [31, 32]
-  k: '&comma'
+  k: '&just_comma'
 - p: [32, 33]
-  k: KP DOT
+  k: '&just_dot'
 - p: [7, 8, 9]
   k: {t: '&general_layer_wRGB', h: '&numbers_layer_wRGB'}
 - p: [0, 12, 24]
   k: '&adjust_layer_wRGB'
+- p: [34, 33]
+  k: '&just_slash'
