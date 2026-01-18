@@ -34,7 +34,7 @@ layers:
   - N
   - M
   - ','
-  - .
+  - '&uc 0x3C0 0'
   - {t: /, h: \}
   - {t: ']', h: '$$mdi:apple-keyboard-option$$'}
   - '&tmux_leader'
