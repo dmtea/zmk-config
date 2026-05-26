@@ -295,13 +295,31 @@ combos:
   k: {t: PLAY PAUSE, h: '$$mdi:apple-keyboard-option$$'}
 - p: [14, 15]
   k: KP EQUAL
-- p: [2, 3, 4]
+- p: [2, 3, 1, 4]
   k: {t: '&general_layer_wRGB', h: '&numbers_layer_wRGB'}
 - p: [26, 27]
   k: '*'
 - p: [27, 28]
   k: /
-- p: [7, 8, 9]
+- p: [7, 8, 9, 10]
   k: {t: '&general_layer_wRGB', h: '&numbers_layer_wRGB'}
 - p: [0, 12, 24]
   k: '&adjust_layer_wRGB'
+- p: [34, 35]
+  k: ENTER
+- p: [19, 20, 21]
+  k: $$mdi:apple-keyboard-control$$
+- p: [2, 3, 4]
+  k: AltGr+E
+- p: [25, 26, 27]
+  k: AltGr+X
+- p: [29, 28, 27]
+  k: AltGr+B
+- p: [18, 19, 20]
+  k: AltGr+J
+- p: [30, 31, 32]
+  k: AltGr+M
+- p: [7, 8, 9]
+  k: AltGr+I
+- p: [5, 4, 3]
+  k: AltGr+T

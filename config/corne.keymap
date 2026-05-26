@@ -209,7 +209,7 @@
 
         rgb_numbers_left {
             bindings = <&numbers_ht 0 0>;
-            key-positions = <2 3 4>;
+            key-positions = <2 3 1 4>;
         };
 
         star {
@@ -224,12 +224,57 @@
 
         rgb_numbers_right {
             bindings = <&numbers_ht 0 0>;
-            key-positions = <7 8 9>;
+            key-positions = <7 8 9 10>;
         };
 
         adjust_layer {
             bindings = <&adjust_layer_wRGB>;
             key-positions = <0 12 24>;
+        };
+
+        r_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <34 35>;
+        };
+
+        rctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <19 20 21>;
+        };
+
+        ralt_e {
+            bindings = <&kp RA(E)>;
+            key-positions = <2 3 4>;
+        };
+
+        ralt_x {
+            bindings = <&kp RA(X)>;
+            key-positions = <25 26 27>;
+        };
+
+        ralt_b {
+            bindings = <&kp RA(B)>;
+            key-positions = <29 28 27>;
+        };
+
+        ralt_j {
+            bindings = <&kp RA(J)>;
+            key-positions = <18 19 20>;
+        };
+
+        ralt_m {
+            bindings = <&kp RA(M)>;
+            key-positions = <30 31 32>;
+        };
+
+        ralt_i {
+            bindings = <&kp RA(I)>;
+            key-positions = <7 8 9>;
+        };
+
+        ralt_t {
+            bindings = <&kp RA(T)>;
+            key-positions = <5 4 3>;
         };
     };
 };
