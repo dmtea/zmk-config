@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ':', h: ;}
   - {t: '''', h: ⌦}
-  - '&pseudo_caps'
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -323,3 +323,5 @@ combos:
   k: AltGr+I
 - p: [5, 4, 3]
   k: AltGr+T
+- p: [24, 25, 26]
+  k: Sft+RIGHT SHIFT
