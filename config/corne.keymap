@@ -80,7 +80,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MOUSE_TOGGLE";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&tog 6>;
+            bindings = <&kp LEFT_SHIFT>, <&to 6>;
 
             tapping-term-ms = <200>;
         };
