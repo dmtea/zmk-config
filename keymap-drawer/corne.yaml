@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ':', h: ;}
   - {t: '''', h: ⌦}
-  - LEFT SHIFT
+  - '&pseudo_caps'
   - Z
   - X
   - C
