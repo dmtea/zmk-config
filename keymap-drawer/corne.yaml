@@ -13,7 +13,7 @@ layers:
   - {t: O, h: '9'}
   - {t: P, h: '0'}
   - {t: '[', h: '&fbuttons_layer_wRGB'}
-  - {t: ↹, h: Ctl+RIGHT SHIFT}
+  - {t: ↹, h: Alt+␣}
   - {t: A, h: '!'}
   - {t: S, h: '@'}
   - {t: D, h: '#'}
@@ -42,7 +42,7 @@ layers:
   - {t: ⏎, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ␣, h: '&raise_layer_wRGB 2'}
   - $$mdi:backspace-outline$$
-  - {t: Ctl+RIGHT SHIFT, h: CAPSLOCK}
+  - {t: Alt+␣, h: CAPSLOCK}
   lower:
   - '~'
   - '1'

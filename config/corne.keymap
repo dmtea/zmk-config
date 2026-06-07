@@ -80,7 +80,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MOUSE_TOGGLE";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL>, <&tog 5>;
+            bindings = <&kp LEFT_SHIFT>, <&tog 6>;
 
             tapping-term-ms = <200>;
         };
@@ -416,10 +416,10 @@
 
         default_layer {
             bindings = <
-&kp ESC                  &mt NUMBER_1 Q     &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R     &mt NUMBER_5 T    &mt NUMBER_6 Y        &mt NUMBER_7 U  &mt NUMBER_8 I                &mt NUMBER_9 O  &mt NUMBER_0 P       &fbuttons_ht2 0 LEFT_BRACKET
-&mt LC(RIGHT_SHIFT) TAB  &mt EXCLAMATION A  &mt AT_SIGN S   &mt HASH D      &mt DOLLAR F       &mt PERCENT G     &kp H                 &kp J           &kp K                         &kp L           &mt SEMICOLON COLON  &mt DEL SQT
-&mouse_toggle            &kp Z              &kp X           &kp C           &kp V              &kp B             &kp N                 &kp M           &kp COMMA                     &kp DOT         &mt BACKSLASH FSLH   &mt RALT RIGHT_BRACKET
-                                                            &kp LCTRL       &lower_layer_wRGB  &mt LGUI RET      &raise_ht2 RSE SPACE  &kp BSPC        &mt CAPSLOCK RC(RIGHT_SHIFT)
+&kp ESC            &mt NUMBER_1 Q     &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R     &mt NUMBER_5 T    &mt NUMBER_6 Y        &mt NUMBER_7 U  &mt NUMBER_8 I          &mt NUMBER_9 O  &mt NUMBER_0 P       &fbuttons_ht2 0 LEFT_BRACKET
+&mt LA(SPACE) TAB  &mt EXCLAMATION A  &mt AT_SIGN S   &mt HASH D      &mt DOLLAR F       &mt PERCENT G     &kp H                 &kp J           &kp K                   &kp L           &mt SEMICOLON COLON  &mt DEL SQT
+&mouse_toggle      &kp Z              &kp X           &kp C           &kp V              &kp B             &kp N                 &kp M           &kp COMMA               &kp DOT         &mt BACKSLASH FSLH   &mt RALT RIGHT_BRACKET
+                                                      &kp LCTRL       &lower_layer_wRGB  &mt LGUI RET      &raise_ht2 RSE SPACE  &kp BSPC        &mt CAPSLOCK LA(SPACE)
             >;
         };
 
