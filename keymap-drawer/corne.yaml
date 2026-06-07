@@ -13,7 +13,7 @@ layers:
   - {t: O, h: '9'}
   - {t: P, h: '0'}
   - {t: '[', h: '&fbuttons_layer_wRGB'}
-  - ↹
+  - {t: ↹, h: Ctl+RIGHT SHIFT}
   - {t: A, h: '!'}
   - {t: S, h: '@'}
   - {t: D, h: '#'}
@@ -25,7 +25,7 @@ layers:
   - L
   - {t: ':', h: ;}
   - {t: '''', h: ⌦}
-  - $$mdi:apple-keyboard-shift$$
+  - '&mouse_toggle'
   - Z
   - X
   - C
@@ -37,12 +37,12 @@ layers:
   - .
   - {t: /, h: \}
   - {t: ']', h: '$$mdi:apple-keyboard-option$$'}
-  - '&tmux_leader'
+  - $$mdi:apple-keyboard-control$$
   - '&lower_layer_wRGB'
   - {t: ⏎, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ␣, h: '&raise_layer_wRGB 2'}
   - $$mdi:backspace-outline$$
-  - {t: CAPSLOCK, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Ctl+RIGHT SHIFT, h: CAPSLOCK}
   lower:
   - '~'
   - '1'
@@ -258,6 +258,49 @@ layers:
   - {t: ▽, type: trans}
   - BACKSPACE
   - {t: ▽, type: trans}
+  '6':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - '&msc MOVE_Y(-20)'
+  - '&mmv MOVE_UP'
+  - '&msc MOVE_Y(20)'
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc MOVE_X(-20)'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&msc MOVE_X(20)'
+  - ''
+  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
 combos:
 - p: [4, 5]
   k: (
