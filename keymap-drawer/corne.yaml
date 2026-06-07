@@ -13,7 +13,7 @@ layers:
   - {t: O, h: '9'}
   - {t: P, h: '0'}
   - {t: '[', h: '&fbuttons_layer_wRGB'}
-  - {t: ↹, h: Sft+LEFT CONTROL}
+  - {t: ↹, h: CAPSLOCK}
   - {t: A, h: '!'}
   - {t: S, h: '@'}
   - {t: D, h: '#'}
@@ -42,7 +42,7 @@ layers:
   - {t: ⏎, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ␣, h: '&raise_layer_wRGB 2'}
   - $$mdi:backspace-outline$$
-  - {t: Sft+LEFT CONTROL, h: CAPSLOCK}
+  - {t: CAPSLOCK, h: CONTEXT MENU}
   lower:
   - '~'
   - '1'
@@ -258,6 +258,49 @@ layers:
   - {t: ▽, type: trans}
   - BACKSPACE
   - {t: ▽, type: trans}
+  '6':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [4, 5]
   k: (
@@ -323,5 +366,3 @@ combos:
   k: AltGr+I
 - p: [5, 4, 3]
   k: AltGr+T
-- p: [24, 25, 26]
-  k: Sft+RIGHT SHIFT
