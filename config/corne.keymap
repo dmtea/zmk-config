@@ -474,9 +474,9 @@
 
         layer_6 {
             bindings = <
-&kp LA(F1)         &trans         &kp LG(LC(W))  &kp LG(LC(E))  &trans         &kp LG(LC(T))    &trans  &trans  &trans  &trans  &trans  &trans
-&trans             &kp LG(LC(A))  &trans         &trans         &kp LG(LS(F))  &trans           &trans  &trans  &trans  &trans  &trans  &trans
-&kp LG(LC(LA(Z)))  &kp LG(LC(Z))  &trans         &kp LG(LC(C))  &kp LG(LC(V))  &kp LC(LA(B))    &trans  &trans  &trans  &trans  &trans  &trans
+&mt LA(F1) F1      &none          &kp LG(LC(W))  &kp LG(LC(E))  &none          &kp LG(LC(T))    &trans  &trans  &trans  &trans  &trans  &trans
+&none              &kp LG(LC(A))  &none          &kp LG(LS(D))  &kp LG(LS(F))  &none            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LG(LC(LA(Z)))  &kp LG(LC(Z))  &none          &kp LG(LC(C))  &kp LG(LC(V))  &kp LC(LG(B))    &trans  &trans  &trans  &trans  &trans  &trans
                                                  &trans         &trans         &trans           &trans  &trans  &trans
             >;
         };

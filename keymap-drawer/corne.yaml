@@ -259,11 +259,11 @@ layers:
   - BACKSPACE
   - {t: ▽, type: trans}
   '6':
-  - Alt+F1
-  - {t: ▽, type: trans}
+  - {t: F1, h: Alt+F1}
+  - ''
   - Gui+Ctl+W
   - Gui+Ctl+E
-  - {t: ▽, type: trans}
+  - ''
   - Gui+Ctl+T
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -271,12 +271,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - Gui+Ctl+A
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - Gui+Sft+D
   - Gui+Sft+F
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -285,10 +285,10 @@ layers:
   - {t: ▽, type: trans}
   - Gui+Ctl+Alt+Z
   - Gui+Ctl+Z
-  - {t: ▽, type: trans}
+  - ''
   - Gui+Ctl+C
   - Gui+Ctl+V
-  - Ctl+Alt+B
+  - Ctl+Gui+B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
