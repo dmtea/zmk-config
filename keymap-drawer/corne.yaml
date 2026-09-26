@@ -37,7 +37,7 @@ layers:
   - .
   - {t: /, h: \}
   - {t: ']', h: '$$mdi:apple-keyboard-option$$'}
-  - '&ctrl_mom6'
+  - '&ctrl_layer6'
   - '&lower_layer_wRGB'
   - {t: ⏎, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ␣, h: '&raise_layer_wRGB 2'}
@@ -259,6 +259,12 @@ layers:
   - BACKSPACE
   - {t: ▽, type: trans}
   '6':
+  - Alt+F1
+  - {t: ▽, type: trans}
+  - Gui+Ctl+W
+  - Gui+Ctl+E
+  - {t: ▽, type: trans}
+  - Gui+Ctl+T
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -266,6 +272,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+Ctl+A
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Sft+F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -273,22 +283,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+Ctl+Alt+Z
+  - Gui+Ctl+Z
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Ctl+C
   - Gui+Ctl+V
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F1
-  - {t: ▽, type: trans}
+  - Ctl+Alt+B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
