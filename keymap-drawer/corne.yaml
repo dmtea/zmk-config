@@ -37,7 +37,7 @@ layers:
   - .
   - {t: /, h: \}
   - {t: ']', h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:apple-keyboard-control$$
+  - '&ctrl_mom6'
   - '&lower_layer_wRGB'
   - {t: ⏎, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ␣, h: '&raise_layer_wRGB 2'}
@@ -45,28 +45,28 @@ layers:
   - {t: CAPSLOCK, h: CONTEXT MENU}
   lower:
   - '~'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - {t: Y, h: '6'}
-  - {t: U, h: '7'}
-  - {t: I, h: '8'}
-  - {t: O, h: '9'}
-  - {t: P, h: '0'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - '`'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - {t: H, h: ^}
-  - {t: J, h: AMPS}
-  - {t: K, h: '*'}
-  - {t: L, h: <}
-  - {t: ;, h: '>'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - $$mdi:apple-keyboard-shift$$
   - F1
@@ -275,6 +275,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -286,8 +287,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
